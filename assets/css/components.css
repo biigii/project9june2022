@@ -1,5 +1,38 @@
+body {
+  background:linear-gradient(red,orange, yellow, green, blue, indigo, violet);
+}
+
 .navigation {
-  text-align: center;
-  height: 100px;
-  line-height: 100px;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+
+.background-gradient {
+    height: 500px;
+    outline: 3px dashed #0f0;
+    margin-bottom: 25px;
+    /* background: linear-gradient(#f33, #000, #0f0, #00f); */
+    /* background: linear-gradient(to top, #f33, #000); */
+    /* background: linear-gradient(to right, #f33, #000); */
+    /* background: linear-gradient(to bottom right, #f33, #000); */
+    /* background: linear-gradient(45deg, #f33, #000); */
+    /* background: linear-gradient( #f33 50%, #000 50%); */
+    /* background: linear-gradient(#f33, #f33 10%, #000 10%, #000 40%, #0f0 40%, #0f0 80%, #ff0 80%, #ff0); */
+    /* background: radial-gradient(#f33, #000, #ff0, #0f0);*/
+    /* background: radial-gradient(#f33 50%, #000 50%); */
+    background: 
+        repeating-linear-gradient(45deg, transparent,#445 50px), 
+        repeating-linear-gradient(0.75turn, rgba(100,120,140, 0.5) 20px, transparent),
+        repeating-linear-gradient(135deg, transparent, rgba(100, 500, 155, 1) 50px)
+}
+
+.background {
+    height: 500px;
+    outline: 3px dotted #f33;
+    /* background-color: #f33; */
+    background-image: url('https://picsum.photos/id/190/1920/1080');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
