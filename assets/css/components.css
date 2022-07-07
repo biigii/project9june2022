@@ -1,12 +1,15 @@
-body {
-  background:linear-gradient(red,orange, yellow, green, blue, indigo, violet);
-}
-
 .navigation {
     text-align: center;
     height: 100px;
     line-height: 100px;
 }
+
+.homepage header {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
 
 .background-gradient {
     height: 500px;
@@ -27,12 +30,62 @@ body {
         repeating-linear-gradient(135deg, transparent, rgba(100, 500, 155, 1) 50px)
 }
 
-.background {
+/* .background {
     height: 500px;
     outline: 3px dotted #f33;
-    /* background-color: #f33; */
+    background-color: #f33;
     background-image: url('https://picsum.photos/id/190/1920/1080');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+} */
+
+.background {
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('https://picsum.photos/id/1055/2550/1440'); */
+  background:  linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('https://picsum.photos/id/1051/2550/1440') center no-repeat;
+  /* height: 100%; */
+  /* width: 100vw; */
+  height: 100vh;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.center-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.center-block h2 {
+  color: #fff;
+  font-size: 8vw;
+  margin-bottom: 45px;
+  font-family: 'Finlandica', sans-serif;
+}
+
+.center-block .button {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 15px 30px;
+  background-color: #f22;
+  transition-property: color, border, background-color;
+  transition-duration: 400ms;
+}
+
+.center-block .button:hover {
+  color: #f22;
+  border: 1px solid #f22;
+  background-color: #fff;
+}
+
+footer {
+  background-color: #123;
+  height: 100px;
+  color: #fff
 }
