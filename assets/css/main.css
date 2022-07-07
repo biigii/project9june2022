@@ -1,0 +1,6 @@
+@import 'https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Noto+Sans:wght@100;400;700&display=swap';
+@import 'https://necolas.github.io/normalize.css/8.0.1/normalize.css';
+@import './global.css';
+@import './layout.css';
+@import './components.css';
+@import './typography.css';

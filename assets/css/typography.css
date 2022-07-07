@@ -1,0 +1,30 @@
+h1 {
+    font-family: 'Finlandica', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100px;
+}
+
+.navigation a {
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #000;
+    transition-property: border-bottom-color, color;
+    transition-duration: 0.5s;
+    /* border-bottom: 3px solid #fff; */
+    border-bottom-color: #ffffff;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+.navigation a:hover {
+    /* border-bottom: 3px solid #0000ff; */
+    border-bottom-color: #0000ff;
+    color: #0000ff;
+    /*border-bottom-width: 3px;
+  border-bottom-style: solid; */
+}
